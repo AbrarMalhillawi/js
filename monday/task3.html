@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task3</title>
+</head>
+<body>
+    <script>
+        let age;
+         let cups;
+         age=prompt("enter your age : ");
+         cups=prompt("enter amount ber day:");
+         calculateSupply(age,cups);
+        function calculateSupply(my_age,num_cups)
+        { 
+            my_age=100-my_age;
+            result=(360*my_age)*num_cups;
+            document.write(" You will need "+ result +" cups of tea to last you until the ripe old age of 100 ");
+              
+        }
+    </script>
+</body>
+</html>
