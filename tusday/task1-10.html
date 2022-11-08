@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>task1</title>
+</head>
+<body>
+    <script>
+       
+/*
+1
+Correct the syntax error
+ [ 1,7 , 9 , 45, ]
+
+ ["Str" "alex","moh]
+
+ ['the','fox' 'over' lazy, 'dog',  ]
+
+*/ 
+
+/*
+2
+What the index of "Banana","Tomato"
+var fruits=["Tomato","Banana","Watermelon"]
+   console.log[0,1];
+*/
+
+/*
+3
+Create an array represents your:
+1- Favorite Food (5)
+2- Favorite Sport (3)
+3- Favorite Movie (4)
+*/
+
+//  let favorite_food=["botato","mashroum","tomato","banana"];
+//  let favorite_sport=["football","basketball","swimming "];
+//  let favorite_movie=["Citizen Kane","The Godfather"," Pulp Fiction","Angry Men"];
+//   console.log(favorite_food+"<br>"+favorite_sport+"<br>"+favorite_sport);
+
+/*
+4
+Create a function called firstOfArray
+that take an array as a parameter
+and return the first element in an array
+
+Ex: firstOfArray([1,4,5]) => 1
+Ex: firstOfArray(["t","u","g","x"]) => "t"
+*/
+
+// let array=[1,4,5];
+// firstOfArray(array);
+// function firstOfArray(arrays)
+// {
+//    console.log(arrays[0]);
+// }
+
+/*
+5
+Create a function called lastOfArray
+that take an array as a parameter
+and return the first element in an array
+
+Ex: lastOfArray([1,4,5]) => 5
+Ex: lastOfArray(["t","u","g","x"]) => "x"
+*/
+
+// solution
+// let array=["t","u","g","x"];
+// lastOfArray(array);
+// function lastOfArray(array)
+// {
+//     console.log(array[array.length-1]);
+
+// }
+
+/*
+6
+Using console make this array to be like this one (push, unshift, shift, pop)
+
+var array = [0,5,7,9]
+=> [1,3,4,6,8,9,10]
+*/
+
+// solution
+
+//  var array=[0,5,7,9];  
+//         array.pop();
+//         array.pop();
+//         array.push(6);
+//         array.push(8);
+//         array.push(9);
+//         array.push(10);
+//         array.shift(0);
+//         array.unshift(4);
+//         array.unshift(3);
+//         array.unshift(1);
+// console.log(array);
+
+
+/*
+7
+Using the console try to figure out what the thing thats (push, unshift, shift, pop) return to you
+
+var array2 = [5,9,-7,3.5]
+*/
+// solution
+
+// let array=[];
+// array.unshift(0);
+// array.shift();
+// array.push(5);
+// array.push(9);
+// array.push(-10);
+// array.pop();
+// array.push(-7);
+// array.push(3,5.5);
+
+// console.log(array);
+
+
+/*
+8
+Create a function called middleOfArray
+that take an array as a parameter
+and return the middle element in an array if it is have an odd elemnets
+and return the two middle elemnt in an array if it is have an even elemnets
+
+Ex: middleOfArray([1,4,5]) => 4
+Ex: middleOfArray(["t","u","g","x"]) =>"u and g"
+*/
+
+// solution
+
+
+// let array=[1,2,3,5,8];
+// middleOfArray(array);
+
+
+// function middleOfArray(array)
+// {
+//     if((array.length) % 2 == 0)
+//     {
+//         let z=(array.length/2);
+//         let  y=z-1;
+//         document.write(array[z]+" ,"+array[y]);
+//     }
+//     else 
+//     {
+//         let x=Math.floor(array.length/2);
+//        document.write(array[x]);
+
+//     }
+// }
+ /*
+9
+Using assignm
+ent operator (=)
+make the animals array have these animals
+var animals = ['cat', 'ele', 'bird']
+animals; => ['zebra', 'elephant']
+** hint: animals[0]=something
+
+*/   
+// solution
+
+// var animals =['cat','ele','bird']
+
+// animals[0]="zebra";
+// animals[1]="elephant";
+// 
+
+
+
+/*10
+Create a function called indexOfArray
+that accept an array and index
+and return what this array have in this index
+
+var nums= [1,2,3,8,9]
+Ex: indexOfArray(nums,3) => 8
+Ex: indexOfArray(nums,1) => 2
+Ex: indexOfArray(nums,4) => 9
+
+**try more cases by your self
+*/
+
+
+// solution
+let nums=[1,2,3,4,,5,6];
+
+indexOfArray(nums,3);
+
+function indexOfArray(array,index)
+{
+    document.write(array[index]);
+}
+
+
+
+
+
+
+
+    </script>
+</body>
+</html>

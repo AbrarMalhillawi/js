@@ -162,21 +162,38 @@
 //     }
 //    document.write("<br>");
 // }
-let ahmed,omer,mohammed;
-ahmed=80;
-omer=90;
-mohammed=80;
- avareg(ahmed,omer,mohammed);
+// let ahmed,omer,mohammed;
+// ahmed=80;
+// omer=90;
+// mohammed=80;
+//  avareg(ahmed,omer,mohammed);
 
 
-function avareg(num1,num2,num3)
-{
-   let result;
-   result=(num1+num2+num3)/3;
-   document.write(result);
-}
+// function avareg(num1,num2,num3)
+// {
+//    let result;
+//    result=(num1+num2+num3)/3;
+//    document.write(result);
+// }
 
 
 
+// let car=["ggg","eee" , "tttt",["AAA","FFFF","UpUUU"]];
+//    document.write(car[3][2][1]);
 
- 
+
+   // let student=[];
+   // student[0]="abrar";
+   // student[1]="oday";
+   // document.write(student);
+
+//    const cars = ["Saab", "Volvo", "BMW"];
+// cars[0] = "Opel";
+// const a="dd";
+// document.write(cars);
+// // a=cars[1];
+// document.write(a);
+
+
+let fruit=["apple","lemon","naanaa"];
+fruit.splice();
